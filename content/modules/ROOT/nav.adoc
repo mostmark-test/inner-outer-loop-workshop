@@ -9,6 +9,7 @@
 * xref:inner-loop-06-webui-deployment.adoc[6. Deploy Web UI with Node.js and AngularJS]
 * xref:inner-loop-07-app-health.adoc[7. Monitor Application Health]
 * xref:inner-loop-08-app-config.adoc[8. Externalize Application Configuration]
+* xref:inner-loop-09-shipwright.adoc[9. Build a Container Image with Shipwright]
 
 .Part 2: Outer Loop
 * xref:outer-loop-01-introduction.adoc[1. Introduction]
