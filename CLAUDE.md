@@ -3,14 +3,14 @@
 Antora lab guide of a two-part OpenShift developer workshop: Part 1 Inner Loop (Dev Spaces,
 Quarkus, Spring Boot, .NET, Node.js, probes, configuration) and Part 2 Outer Loop (Gitea,
 OpenShift Pipelines, Argo CD, Service Mesh, Kiali). It is published as the container image
-`quay.io/mostmark/inner-outer-loop-lab:latest`.
+`quay.io/mostmark_test/inner-outer-loop-lab:latest`.
 
 Related repositories (all use only the `main` branch):
 
-- `github.com/mostmark/inner-outer-loop-workshop-gitops`: installs the workshop on a cluster
+- `github.com/mostmark-test/inner-outer-loop-workshop-gitops`: installs the workshop on a cluster
   (operators, platform, per-user resources, this lab guide), builds the participants' tooling image
   and holds the rules for the code repository. Owns the names and services below.
-- `github.com/mostmark/inner-outer-loop-workshop-code`: example code, devfile, devfile task scripts
+- `github.com/mostmark-test/inner-outer-loop-workshop-code`: example code, devfile, devfile task scripts
   and pipelines that participants get in their workspace.
 
 ## Layout

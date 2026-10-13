@@ -1,7 +1,7 @@
 ---
 site:
   title: Inner & Outer Loop Workshop
-  url: https://github.com/mostmark/inner-outer-loop-workshop
+  url: https://github.com/mostmark-test/inner-outer-loop-workshop
   start_page: modules::index.adoc
 
 content:
