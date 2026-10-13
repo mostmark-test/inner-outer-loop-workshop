@@ -1,5 +1,5 @@
 name: modules
-title: Inner & Outer Loop Workshop
+title: ACME Developer Workshop
 version: master
 nav:
   - modules/ROOT/nav.adoc
@@ -27,5 +27,5 @@ asciidoc:
     OPENSHIFT_PASSWORD: "%openshift_password%"
     OPENSHIFT_APPS_DOMAIN: "%openshift_apps_domain%"
     page-links:
-    - url: https://redhat.com
-      text: Red Hat
+    - url: https://www.example.com
+      text: ACME Intranet

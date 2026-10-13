@@ -1,0 +1,24 @@
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://www.example.com" target="_blank" style="margin-left: 2.5%;">
+        <img src="{{{uiRootPath}}}/img/acme-logo.svg" alt="ACME" style="height: 2.2rem;">
+      </a>
+      <a class="navbar-item site-title" style="color: #fff !important;" href="{{{or site.url (or siteRootUrl siteRootPath)}}}">{{site.title}}</a>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        {{#if page.attributes.links}}
+        <div class="navbar-item navbar-item-right-dropdown has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Links</a>
+          <div class="navbar-dropdown navbar-dropdown-right">
+            {{#each page.attributes.links}}
+            <a class="navbar-item navbar-item-right-content" href="{{this.url}}" target="_blank">{{this.text}}</a>
+            {{/each}}
+          </div>
+        </div>
+        {{/if}}
+      </div>
+    </div>
+  </nav>
+</header>

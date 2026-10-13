@@ -1,0 +1,12 @@
+/* ACME colours, applied on top of the theme. */
+.navbar {
+  background: #0b2e59;                  /* header bar */
+}
+.doc a,
+.doc a:hover {
+  color: #c25e00;                       /* links in the pages */
+}
+.nav-item.is-current-page > .nav-link {
+  color: #0b2e59;                       /* current page in the navigation */
+  font-weight: bold;
+}

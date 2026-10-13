@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 40" width="150" height="40">
+  <polygon points="4,34 20,6 36,34" fill="#f28c28"/>
+  <polygon points="14,34 20,23 26,34" fill="#0b2e59"/>
+  <text x="44" y="29" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff">ACME</text>
+</svg>
